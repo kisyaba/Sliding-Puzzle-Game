@@ -1,6 +1,10 @@
 # Image Sliding Puzzle Game
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+clone repo
+
+npm install 
+
+Run application "ng serve/ ng start"
 
 ## Development server
 
