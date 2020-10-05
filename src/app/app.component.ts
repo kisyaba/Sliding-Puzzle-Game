@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'slidingGame';
 
+  constructor(){
+  }
+
   swapTiles(cell1, cell2) {
     let temp = document.getElementById(cell1).className;
     document.getElementById(cell1).className = document.getElementById(
@@ -98,5 +101,9 @@ export class AppComponent {
         alert('Congratulations -- Winner!!! :) ');
       }
     }
+  }
+
+  ngOnInit(): void{
+    this.shuffle();
   }
 }
